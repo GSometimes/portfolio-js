@@ -431,13 +431,12 @@ html {
   padding: 1.5rem;
 }
 
-@media only screen and (max-width: 991px){
+@media screen and (max-width: 991px) {
   .contact-links {
     font-size: 1.5rem;
   }
 }
-@media (max-width: 768px) {
-
+@media screen and (max-width: 768px) {
   /* Navigation */
 
   .menu-link {
@@ -489,7 +488,7 @@ html {
   }
 }
 
-@media (max-width: 576px) {
+@media screen and (max-width: 576px) {
   .section {
     padding: 10px;
   }
@@ -518,9 +517,8 @@ html {
   }
 }
 
-
-@media (min-width : 1200px) {
-  .paragraph{
+@media screen and (min-width: 1200px) {
+  .paragraph {
     font-size: 1.25rem;
   }
 }
