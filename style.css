@@ -224,6 +224,7 @@ html {
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   margin: 0;
   display: block;
+  padding-top: 1.5rem;
 }
 
 .grid-item {
@@ -501,6 +502,7 @@ html {
 
   .section-header {
     font-size: 5rem;
+    padding-top: 1rem;
   }
 
   .grid-item-header {
