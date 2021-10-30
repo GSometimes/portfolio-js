@@ -393,6 +393,7 @@ html {
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  margin-bottom: 50px;
 }
 
 .contact1,
