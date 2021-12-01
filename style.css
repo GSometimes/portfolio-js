@@ -1,8 +1,5 @@
-
-
 @import url("https://fonts.googleapis.com/css2?family=Sacramento&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Courier+Prime:wght@400;700&display=swap");
-
 
 * {
   margin: 0;
@@ -22,13 +19,6 @@ html {
   font-family: "Helvetica", "Arial", sans-serif;
   background-color: #f5f5f5;
 }
-
-/* D3 Hero Animation */
-
-/* .container {
-  background: linear-gradient(to bottom right, #008080, #e9c3b8, #f6ae2d);
-} */
-
 
 /* Navigation */
 
@@ -119,7 +109,6 @@ html {
 .banner {
   height: calc(100vh - 75px);
   width: 100%;
-  /* max-width: 1280px; */
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -248,6 +237,7 @@ html {
   background-color: #e9c3b8;
 }
 
+
 .grid-item:nth-child(3) {
   background-color: #708090;
 }
@@ -263,7 +253,6 @@ html {
   letter-spacing: 0.3px;
   text-shadow: 2px 4px 3px rgba(0, 0, 0, 0.3);
   text-align: center;
-
 }
 
 .line {
@@ -329,6 +318,7 @@ html {
 
 /* Projects */
 
+
 .works-color {
   background-color: #f6ae2d;
 }
@@ -338,10 +328,6 @@ html {
   font-size: 1rem;
   text-decoration: none;
   font-weight: 700;
-}
-
-.works-link:hover {
-  transform: scale(1.1);
 }
 
 .project-items {
@@ -364,6 +350,7 @@ html {
   width: 50%;
 }
 
+
 .project2 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
     url(https://res.cloudinary.com/dvug8hy5k/image/upload/v1632284268/Portfolio1/Storefront-Screenshot-min_ci1ikq.jpg);
@@ -375,7 +362,7 @@ html {
 
 .project3 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)),
-    url(https://res.cloudinary.com/dvug8hy5k/image/upload/v1635138368/Portfolio1/Screenshot_2020-12-06_162624_q0h836-min_lljlbf.png);
+    url(https://res.cloudinary.com/dvug8hy5k/image/upload/v1638391988/Portfolio1/Screenshot_2021-12-01_111903_1_wmev7t.png);
   background-size: cover;
   background-position: center;
   height: 500px;
@@ -449,6 +436,10 @@ html {
 @media screen and (max-width: 991px) {
   .contact-links {
     font-size: 1.5rem;
+  }
+
+  .paragraph {
+    line-height: 1.45;
   }
 }
 @media screen and (max-width: 768px) {
